@@ -1,3 +1,28 @@
+# 📝 Todo App – React + Hooks + Material UI
+
+A modern and efficient Todo App built with **React JS**, showcasing the use of various React hooks such as `useState`, `useEffect`, `useMemo`, `useContext`, and `useReducer`. This project demonstrates effective global state management using the **Context API** combined with `useReducer`, along with a polished UI using **Material UI**.
+
+## 🔧 Features
+
+- ✅ Add, edit, mark complete, delete, and search todos
+- 🔄 Global state management using Context + useReducer
+- ⚡ Performance optimization with useMemo
+- 💡 Clean component structure with functional hooks
+- 🎨 Responsive and accessible UI with Material UI
+
+## 🛠️ Technologies Used
+
+- **React JS**
+- **React Hooks** – useState, useEffect, useMemo, useContext, useReducer
+- **Material UI** – for layout, styling, and responsiveness
+
+---
+Try it out: [Todos | مهامي](https://cozy-phoenix-418507.netlify.app/)
+
+Feel free to fork, clone, or contribute!
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

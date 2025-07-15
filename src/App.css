@@ -36,3 +36,111 @@
     transform: rotate(360deg);
   }
 }
+
+.iconButton {
+  transition: all 0.3s ease !important;
+}
+.iconButton:hover {
+  /* background-color: #c5c5c5 !important; */
+  opacity: 0.7;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.card-container {
+  transition: all 0.2s ease !important;
+}
+
+.card-container:hover {
+  padding: 10px 0px;
+  box-shadow: 0 5px 7px rgba(255, 255, 255, 0.4);
+}
+/* Card Animations */
+.card-container {
+  animation: appear 0.3s linear;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+/* === Card Animations === */
+.add-btn {
+  transition: all 0.2s ease !important;
+}
+
+.add-btn:hover {
+  background-color: #d74949d8;
+  box-shadow: 0 5px 7px rgba(255, 255, 255, 0.4) !important;
+}
+
+.toggle-btn {
+  transition: all 0.3s ease;
+}
+.toggle-btn:hover {
+  background-color: #3a3a3a !important;
+}
+
+.divider-color {
+  border-color: rgba(255, 255, 255, 0.397) !important;
+}
+
+.Scrollable-Content {
+  max-height: 80vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.Scrollable-Content::-webkit-scrollbar {
+  width: 8px;
+}
+.Scrollable-Content::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #242424;
+}
+.Scrollable-Content::-webkit-scrollbar-thumb {
+  background-color: rgba(215, 73, 73);
+  border-radius: 10px;
+  box-shadow: 0 0 7px rgba(215, 74, 73, 0.7);
+}
+
+/* Custom Fonts */
+
+@font-face {
+  font-family: Almarai;
+  src: url("../public/fonts/Almarai-Light.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Almarai;
+  src: url("../public/fonts/Almarai-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Almarai;
+  src: url("../public/fonts/Almarai-Bold.ttf");
+  font-weight: bold;
+}
+
+/* === Custom Fonts === */
+
+@media screen and (max-width: 600px) {
+  .todo-title {
+    font-size: 1.2rem !important;
+  }
+
+  .todo-subtitle {
+    font-size: 0.9rem !important;
+  }
+  .iconButton {
+    width: 34px;
+    height: 34px;
+  }
+}
